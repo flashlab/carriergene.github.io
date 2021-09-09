@@ -1,18 +1,19 @@
 # Site settings
 title: Nuprobe
 SEOTitle: 阅尔基因 | Nuprobe
-header-img: img/banner.png
-email: mkt@carriergene.com
+header-img: img/banner.jpg
+banner-img: img/NP_logo.png
+email: mkt@nuprobe.com
 description: "专注,专业,专心"
 keyword: "Tech, Gene, Med"
-url: "http://carriergene.github.io"          # your host, for absolute URL
+url: "http://mcom.nuprobe.com.cn"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/carriergene/carriergene.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "专注,专业,专心"
-sidebar-avatar: /img/carriergene_logo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/nuprobe_logo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
