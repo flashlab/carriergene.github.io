@@ -233,6 +233,11 @@ pre code {
 .post-container a {
   color: #337ab7;
 }
+.post-container a:after {
+  content: "\f08e";
+  display: inline-block;
+  font-family: 'FontAwesome';
+}
 .post-container a:hover,
 .post-container a:focus {
   color: #0085a1;
@@ -431,6 +436,9 @@ pre code {
     color: white;
     padding: 20px;
     line-height: 20px;
+  }
+  .navbar-custom .navbar-brand img {
+    width: 120px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -980,6 +988,19 @@ img::-moz-selection {
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
+.post-container ul {
+  display: contents;
+  list-style: none;
+}
+.post-container:first-child>ul>li>a {
+  font-weight: 600;
+}
+.post-container:first-child>ul>li>i {
+  margin-left: -14px;
+  margin-right: 5px;
+  font-style: inherit;
+}
+
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
