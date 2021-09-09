@@ -270,6 +270,9 @@ pre code {
   .post-container ol {
     padding-left: 30px;
   }
+  .navbar-custom .navbar-brand img {
+    width: 120px;
+  }
 }
 @media screen and (max-width: 500px) {
   .post-container ul,
@@ -431,9 +434,6 @@ pre code {
     color: white;
     padding: 20px;
     line-height: 20px;
-  }
-  .navbar-custom .navbar-brand img {
-    width: 120px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -985,6 +985,8 @@ img::-moz-selection {
 }
 .post-container ul {
   display: contents;
+}
+.post-container:first-child>ul>li {
   list-style: none;
 }
 .post-container:first-child>ul>li>a {
