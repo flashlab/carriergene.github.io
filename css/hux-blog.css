@@ -990,7 +990,7 @@ img::-moz-selection {
   list-style: none;
 }
 .post-container:first-child>ul>li>a {
-  font-weight: 600;
+  font-weight: bold;
 }
 .post-container:first-child>ul>li>i {
   margin-left: -14px;
