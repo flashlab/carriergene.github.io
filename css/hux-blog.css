@@ -233,11 +233,6 @@ pre code {
 .post-container a {
   color: #337ab7;
 }
-.post-container a:after {
-  content: "\f08e";
-  display: inline-block;
-  font-family: 'FontAwesome';
-}
 .post-container a:hover,
 .post-container a:focus {
   color: #0085a1;
