@@ -1,8 +1,8 @@
 # Site settings
-title: Nuprobe
+title: 内部通讯
 SEOTitle: 阅尔基因 | Nuprobe
-header-img: img/banner.jpg
-banner-img: img/NP_logo.png
+header-img: banner.jpg
+banner-img: NP_logo.png
 email: mkt@nuprobe.com
 description: "专注,专业,专心"
 keyword: "Tech, Gene, Med"
@@ -13,7 +13,7 @@ github_repo: "https://github.com/carriergene/carriergene.github.io" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "专注,专业,专心"
-sidebar-avatar: /img/nuprobe_logo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: nuprobe_logo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
